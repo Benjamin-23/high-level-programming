@@ -40,3 +40,11 @@ for l in sentence:
     else:
         letters[l] = 1
 print(letters)
+
+number = 0
+if number > 0:
+    print(f'{number} is positive number')
+elif number < 0 :
+    print(f'{number} is negative number')
+else:
+    print(f'{number} number is zero')
